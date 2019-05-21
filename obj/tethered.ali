@@ -1,0 +1,125 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U tethered%b		tethered.adb		69fde5d4 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-flteio.ads		20180524051736 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20180524051738 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-tiflio.ads		20180524051736 56fbda09 ada.text_io.float_io%s
+D a-tiinio.ads		20180524051736 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D system.ads		20180524051738 32a08138 system%s
+D s-conca2.ads		20180524051736 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D tethered.adb		20181017032922 f621988a tethered%b
+X 1 ada.ads
+16K9*Ada 20e8 28|9r6 9r23 10r6 10r31 11r6 11r29
+X 3 a-flteio.ads
+20K13*Float_Text_IO[9|46] 28|11w10 11r33
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[10|46] 28|10w10 10r35
+X 8 a-textio.ads
+49K13*Text_IO 471e16 28|9w10 9r27
+73I12*Field{integer}
+166U14*New_Line 28|92s13 122s16 141s10 144s10 147s10 165s7 202s13 222s10
+. 225s10 228s10
+184V13*End_Of_File{boolean} 28|36s17 129s10 211s10
+242U14*Put 28|84s13 86s13 88s13 90s13 114s16 116s16 118s16 120s16 132s10
+. 134s10 135s10 136s10 142s10 145s10 148s10 194s13 196s13 198s13 200s13 213s10
+. 215s10 216s10 217s10 223s10 226s10 229s10
+263U14*Put_Line 28|60s7 166s7
+X 9 a-tiflio.ads
+68U14*Put 28|149s10[3|20] 230s10[3|20]
+70i7 Fore{8|73I12} 28|149r19[3|20] 230r19[3|20]
+71i7 Aft{8|73I12} 28|149r30[3|20] 230r30[3|20]
+72i7 Exp{8|73I12} 28|149r40[3|20] 230r40[3|20]
+X 10 a-tiinio.ads
+56U14*Get 28|37s10[4|18] 38s10[4|18]
+66U14*Put 28|85s13[4|18] 87s13[4|18] 89s13[4|18] 91s13[4|18] 115s16[4|18]
+. 117s16[4|18] 119s16[4|18] 121s16[4|18] 133s10[4|18] 137s10[4|18] 143s10[4|18]
+. 146s10[4|18] 195s13[4|18] 197s13[4|18] 199s13[4|18] 201s13[4|18] 214s10[4|18]
+. 218s10[4|18] 224s10[4|18] 227s10[4|18]
+X 28 tethered.adb
+13U11*Tethered 13b11 254l5 254t13
+16N4 MAX_AISLES 245r18
+17N4 MIN_AISLES 245r4
+18N4 MAX_LOCATION 28r56 246r20
+19N4 MIN_LOCATION 28r40 246r4
+22A9 storeInventoryA2D(boolean)<integer><integer> 31r50 49r64 154r66 244r22
+25E9 direction 25e37
+25n23 contin{25E9}
+25n31 rever{25E9}
+28I12 aisleStart{natural} 53r22 53r36 62r33 100r47 101r30 158r22 158r36 168r33
+. 168r53
+31U14 readInput 31b14 31=25 46l8 46t17 250s4
+31a25 productLocations{22A9} 42m16
+32i7 aisleInput{integer} 37m14 40r13 42r33
+33i7 locationInput{integer} 38m14 41r16 42r45
+49U14 calculateTetheredOutput 49b14 49=39 151l8 151t31 251s4
+49a39 productLocations{22A9} 61r27 65r16 66r19 99r35 102r16 103r19
+52a7 directionTravel{string} 84r17 93m13 97m7 114r20 123m16 131m10 132r14
+53i7 aisleStartPos{28I12} 87r17 101m13 117r20
+54i7 previousAisle{integer} 69m16 75r28 85r17 106m16 115r20 133r14
+54i22 lastLocationVisited{integer} 70m16 79r43 81r27 89r17 107m16 109r58
+. 111r30 119r20 137r14
+54i43 totalTraveled{integer} 79m13 80r46 91r17 109m16 110r49 121r20
+54i58 lastTravel{integer} 79r30 81m13 109r39 111m16
+55i7 totalAisles{integer} 78m13 78r28 108m16 108r31 140r39 143r14
+55i20 totalDistance{integer} 80m13 80r30 110m16 110r33 140r23 146r14
+56f7 avg{float} 140m10 149r14
+61i11 currentAisle{integer} 65r33 66r36 69r33 75r13
+62i14 currentLocation{integer} 65r46 66r49 70r39
+99i11 currentAisle{integer} 102r33 103r36 106r33
+100i14 currentLocation{integer} 102r46 103r49 107r39
+154U14 calculateUntetheredOutput 154b14 154=41 233l8 233t33 252s4
+154a41 productLocations{22A9} 167r27 171r16
+157a7 directionTravel{string} 194r17 203m13 213r14
+158i7 aisleStartPos{28I12} 197r17
+159i7 previousAisle{integer} 174m16 180r28 195r17 214r14
+159i22 lastLocationVisited{integer} 175m16 189r43 191r27 199r17 218r14
+159i43 totalTraveled{integer} 189m13 190r46 201r17
+159i58 lastTravel{integer} 189r30 191m13
+160i7 totalAisles{integer} 188m13 188r28 221r39 224r14
+160i20 totalDistance{integer} 190m13 190r30 221r23 227r14
+161f7 avg{float} 221m10 230r14
+167i11 currentAisle{integer} 171r33 174r33 180r13
+168i14 currentLocation{integer} 171r46 175r39
+244a4 productLocations{22A9} 250m14 250r14 251m28 251r28 252m30 252r30
+

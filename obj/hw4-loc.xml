@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>D:\College\Fall 2018\itec-320 (ADA)\HW4\hw4.gpr</vfs_file>
+    <file_marker column=" 1" line=" 204" >
+      <vfs_project />
+      <vfs_file>D:\College\Fall 2018\itec-320 (ADA)\HW4\src\tethered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 57" line=" 89" >
+      <vfs_project />
+      <vfs_file>D:\College\Fall 2018\itec-320 (ADA)\HW2\src\shop.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 204" >
+      <vfs_project />
+      <vfs_file>D:\College\Fall 2018\itec-320 (ADA)\HW4\src\tethered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 55" >
+      <vfs_project />
+      <vfs_file>D:\College\Fall 2018\itec-320 (ADA)\HW4\shop_types_okie.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 156" >
+      <vfs_project />
+      <vfs_file>D:\College\Fall 2018\itec-320 (ADA)\HW4\shop_okie.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 84" >
+      <vfs_project />
+      <vfs_file>D:\College\Fall 2018\itec-320 (ADA)\HW5\src\missing_scores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 13" >
+      <vfs_project />
+      <vfs_file>D:\College\Fall 2018\itec-320 (ADA)\HW4\src\tethered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 38" >
+      <vfs_project>D:\College\Fall 2018\itec-320 (ADA)\HW4\hw4.gpr</vfs_project>
+      <vfs_file>D:\College\Fall 2018\itec-320 (ADA)\HW4\src\tethered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 57" line=" 89" >
+      <vfs_project />
+      <vfs_file>D:\College\Fall 2018\itec-320 (ADA)\HW2\src\shop.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 38" >
+      <vfs_project>D:\College\Fall 2018\itec-320 (ADA)\HW4\hw4.gpr</vfs_project>
+      <vfs_file>D:\College\Fall 2018\itec-320 (ADA)\HW4\src\tethered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 55" >
+      <vfs_project />
+      <vfs_file>D:\College\Fall 2018\itec-320 (ADA)\HW4\shop_types_okie.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 29" line=" 156" >
+      <vfs_project />
+      <vfs_file>D:\College\Fall 2018\itec-320 (ADA)\HW4\shop_okie.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

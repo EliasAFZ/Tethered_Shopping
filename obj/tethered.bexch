@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__tethered.o
+[PROJECT FILES]
+D:\College\Fall 2018\itec-320 (ADA)\HW4\hw4.gpr
+20181006222818
+[BOUND OBJECT FILES]
+D:\College\Fall 2018\itec-320 (ADA)\HW4\obj\tethered.o
+[GENERATED SOURCE FILES]
+b__tethered.ads
+b__tethered.adb
+b__tethered.ali
+[RESULTING OPTIONS]
+-LD:\College\Fall 2018\itec-320 (ADA)\HW4\obj\
+-LD:\College\Fall 2018\itec-320 (ADA)\HW4\obj\
+-LD:/ide/gps/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+D:/ide/gps/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
